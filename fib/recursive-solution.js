@@ -14,8 +14,6 @@ const fib = (n, hash={}) => {
 
 let num1 = 5
 let num2 = 50
-let label1 = `fib${num1}`
-let label2 = `fib${num2}`
 
 console.time(num1.toString())
 fib(num1)
