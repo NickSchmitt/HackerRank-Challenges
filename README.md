@@ -1,6 +1,6 @@
 # HackerRank Coding Challenges
 
-Create a HackerRank account, then attempt to solve the following HackerRank challenges in **40 minutes**.
+[Create a HackerRank account](https://www.hackerrank.com/auth/signup?h_r=home&h_l=body_middle_left_button&h_v=1), then attempt to solve the following HackerRank challenges in **40 minutes**.
 
 ## [1. Staircase](https://www.hackerrank.com/challenges/staircase/problem)
 
