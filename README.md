@@ -6,4 +6,4 @@
 
 ## [2. Fibonacci Numbers](https://www.hackerrank.com/challenges/ctci-fibonacci-numbers/problem)
 
-## [(Optional) 3. Staircase](https://www.hackerrank.com/challenges/staircase/problem)
+## [3. Staircase (Optional)](https://www.hackerrank.com/challenges/staircase/problem)
