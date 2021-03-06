@@ -8,7 +8,7 @@
 // fib(3) = 1 + 1 = 2
 // fib(4) = 2 + 1 = 3
 
-// fibonacci number: 	0, 1, 2, 3, 4, 5, 6
+// fibonacci number:	0, 1, 2, 3, 4, 5, 6
 // result:				0, 1, 1, 2, 3, 5, 8
 
 const fib = (n) => {
@@ -39,15 +39,12 @@ Instead of producing the same values over, we can instead compute each
 value only once, then store those values, then easily retrieve them
 the next time we would have needed to compute them. */
 
-// *** Memoized recursive function *** 
-
+// *** Memoized recursive function ***
 
 const fib = (n, memo = {}) => {
-  
   if (n in memo) return memo[n]
   if (n <= 2) return 1
 
-  
   memo[n] = fib(n - 1) + fib(n - 2)
 
   // Finally, with fib(n-1) + fib(n-2) calculated and stored in the memo like the rest of its subproblems,
@@ -58,9 +55,9 @@ const fib = (n, memo = {}) => {
 // In Javascript, we have the object data type, that allows us to store a value and retrieve it later based on its key.
 
 // If we have already computed fib(n), we won't need to go through this whole function,
-  // and can instead return the value stored that was stored from the first and only computation of fib(n).
+// and can instead return the value stored that was stored from the first and only computation of fib(n).
 
-  /* We run through the recursive computation once, fib(n-1) + fib(n-2), 
+/* We run through the recursive computation once, fib(n-1) + fib(n-2), 
 	and as we recurse all the way down to fib(2), we store the result of fib(n) in our memo object. 
 	The key for that value will be n. This means that next time that one of the subproblems need to be computed again, 
 	it'll be immediately returned thanks to our if(n in memo).*/
