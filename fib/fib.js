@@ -9,7 +9,7 @@
 // fib(4) = 2 + 1 = 3
 
 // fibonacci number:	0, 1, 2, 3, 4, 5, 6
-// result:				0, 1, 1, 2, 3, 5, 8
+// result:		0, 1, 1, 2, 3, 5, 8
 
 const fib = (n) => {
   if (n == 0) return 0
